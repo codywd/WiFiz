@@ -11,7 +11,7 @@ setup(name='wifiz',
       #py_modules=['main'],
       #'runner' is in the root.
       scripts = ['scripts/wifiz'],
-      data_files=[('/usr/share/wifiz/', ['main.py']),
+      data_files=[('/usr/share/wifiz/', ['main.py', 'nonrootwebbrowser.py']),
                   ('/usr/share/wifiz/imgs/',
         ['imgs/APScan.png', 'imgs/connect.png', 'imgs/exit.png',
         'imgs/newprofile.png', 'imgs/aboutLogo.png', 'imgs/disconnect.png',
